@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Oustalette de la Draille - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à L'Oustalette de la Draille</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Notre histoire</h2>
+            <p>Bienvenue dans notre petit coin de paradis où nous proposons des produits artisanaux locaux.</p>
+        </section>
+
+        <!-- Section des tarifs -->
+        <section>
+            <h2>Nos Tarifs</h2>
+            <p>Voici nos prix pour une nuitée :</p>
+            <table>
+                <tr>
+                    <th>Type de chambre</th>
+                    <th>Prix</th>
+                </tr>
+                <tr>
+                    <td>1 nuit pour 1 personne</td>
+                    <td>55€</td>
+                </tr>
+                <tr>
+                    <td>1 nuit pour 2 personnes</td>
+                    <td>70€</td>
+                </tr>
+                <tr>
+                    <td>1 nuit pour 3 personnes</td>
+                    <td>90€</td>
+                </tr>
+                <tr>
+                    <td>1 nuit pour 4 personnes</td>
+                    <td>120€</td>
+                </tr>
+            </table>
+
+            <p><strong>Supplément pour lit supplémentaire :</strong> 15€ par lit (disponible jusqu'à 2 couchages supplémentaires)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 L'Oustalette de la Draille. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - L'Oustalette de la Draille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>À propos de L'Oustalette de la Draille</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Notre histoire</h2>
+            <p>L'Oustalette de la Draille propose des produits artisanaux inspirés des traditions locales de notre région. Nous sommes fiers de proposer des produits faits main avec passion.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 L'Oustalette de la Draille. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - L'Oustalette de la Draille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Comment nous contacter</h2>
+            <p>Vous pouvez nous envoyer un email à <a href="loustalettedeladraille@gmail.com"<a>loustalettedeladraille@gmail.com</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 L'Oustalette de la Draille. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation - L'Oustalette de la Draille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Réservez votre chambre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservation.html">Réserver</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulaire de réservation</h2>
+            <p>Veuillez remplir le formulaire ci-dessous pour réserver votre chambre.</p>
+
+            <form action="loustalettedeladraille@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="arrival">Date d'arrivée :</label><br>
+                <input type="date" id="arrival" name="arrival" required><br><br>
+
+                <label for="departure">Date de départ :</label><br>
+                <input type="date" id="departure" name="departure" required><br><br>
+
+                <label for="guests">Nombre de personnes :</label><br>
+                <input type="number" id="guests" name="guests" min="1" max="6" required><br><br>
+<h1> Merci de m'appeler pour finaliser la reservation. Mon numéro de téléphone: 09 84 39 62 75
+             
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 L'Oustalette de la Draille. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
